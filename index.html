@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPDC Landing page</title>
+    <!-- =========== animated css ========== -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- ======= Font awesome cdn ========= -->
+    <script src="https://kit.fontawesome.com/ed43224735.js" crossorigin="anonymous"></script>
+    <!-- ======== Bootstarp css link =========== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- ========= custom css link ======= -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <!-- ---------------------------- Header start ----------------------------- -->
+
+    <header id="header">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="" width="109" height="53">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">RETAIL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CORPORATE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">COVID 19</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CAMPGAINS</a>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex align-items-center">
+                        <i class="fas fa-search"></i>
+                        <button class="btn all-btn" type="submit">iSERVICE</button>
+                    </form>
+
+                    <!-- ========== off canvas====== -->
+
+                    <i class="fas fa-bars" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                        aria-controls="offcanvasRight"></i>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Personal Informaton</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul>
+                                <li><a href="">OVERVIEW</a></li>
+                                <li><a href="">IPDC PRITI</a></li>
+                                <li><a href="">IPDC HOME LOAN</a></li>
+                                <li><a href="">IPDC AUTO LOAN</a></li>
+                                <li><a href="">IPDC PERSONAL LOAN</a></li>
+                                <li><a href="">IPDC DEPOSIT SCHEMES</a></li>
+                                <li><a href="">IPDC SAVING SCHEMES</a></li>
+                                <li><a href="" data-bs-toggle="modal" data-bs-target="#exampleModal">Log in</a>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Log In</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                                    <form>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Email
+                                                                address</label>
+                                                            <input type="email" class="form-control"
+                                                                id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                            <div id="emailHelp" class="form-text">We'll never share your
+                                                                email with anyone else.</div>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1"
+                                                                class="form-label">Password</label>
+                                                            <input type="password" class="form-control"
+                                                                id="exampleInputPassword1">
+                                                        </div>
+                                                        <div class="mb-3 form-check">
+                                                            <input type="checkbox" class="form-check-input"
+                                                                id="exampleCheck1">
+                                                            <label class="form-check-label" for="exampleCheck1">Check me
+                                                                out</label>
+                                                        </div>
+                                                        <button type="submit" class="btn btn-danger">Log in</button>
+                                                    </form>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li><a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Creat New
+                                        Account</a>
+
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                        aria-hidden="true">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="staticBackdropLabel">Register</h5>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Your
+                                                                Name</label>
+                                                            <input type="text" class="form-control"
+                                                                id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                                                        </div>
+
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputEmail1" class="form-label">Email
+                                                                address</label>
+                                                            <input type="email" class="form-control"
+                                                                id="exampleInputEmail1" aria-describedby="emailHelp">
+                                                            <div id="emailHelp" class="form-text">We'll never share your
+                                                                email with anyone else.</div>
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1"
+                                                                class="form-label">Password</label>
+                                                            <input type="password" class="form-control"
+                                                                id="exampleInputPassword1">
+                                                        </div>
+                                                        <div class="mb-3">
+                                                            <label for="exampleInputPassword1"
+                                                                class="form-label">Confirm Password</label>
+                                                            <input type="password" class="form-control"
+                                                                id="exampleInputPassword1">
+                                                        </div>
+
+                                                        <button type="submit" class="btn btn-danger">Submit</button>
+                                                    </form>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+
+        <!-- =============== Banner section ============ -->
+
+        <div class="banner-area my-5">
+            <div class="container">
+                <div class="row d-flex justify-content-start align-items-center">
+                    <div class="col-lg-6 col-md-12 banner-left">
+                        <h1>Chase Your Dream With us</h1>
+                        <p>The harder you work for something, the greater you’ll feel when you achieve it.</p>
+                        <form class="d-flex">
+                            <button class="btn all-btn" type="submit">APPLY ONLINE</button>
+                            <button class="btn all-btn active-btn" type="submit">LOAN CALCULATOR</button>
+                        </form>
+
+                        <div class="social-section d-flex align-items-center">
+                            <div class="call d-flex align-items-center">
+                                <img src="images/social/call.png" alt="">
+                                <span class="fw-bold mx-3">16519</span>
+                            </div>
+                            <div class="social">
+                                <img src="images/social/Vector.png" alt="">
+                                <img src="images/social/Vector (1).png" alt="">
+                                <img src="images/social/linkedin.png" alt="">
+                                <img src="images/social/instagram.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-12 ">
+
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active slide-btn" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2" class="slide-btn"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3" class="slide-btn"></button>
+                            </div>
+
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="images/banner1.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/banner2.png" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="images/banner3.png" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- ------------------------- main section start -------------------------- -->
+
+    <main>
+        <!-- =================== Experience area =========== -->
+        <section class="experience-area">
+            <div class="container">
+                <div class="exp-head text-center">
+                    <h2>Creating Extraordinary Customer Experience</h2>
+                    <p class="text-muted ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum eget
+                        morbi <br> dignissim eu pharetra consequat montes, sagittis.</p>
+                </div>
+                <div class="expi-body">
+
+                    <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-2 g-lg-3  py-4  wow bounceInUp" data-wow-duration="2.5s">
+                        <div class="col">
+                            <div class="p-3 shadow p-3 mb-5 bg-body rounded">
+                                <img src="images/icon/Circle Layer.png" alt="">
+                                <h5>Integrity</h5>
+                                <p>Displaying the highest level of Integrity in the way we conduct our business</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 shadow p-3 mb-5 bg-body rounded">
+                                <img src="images/icon/Scenery.png" alt="">
+                                <h5>Demonstrate</h5>
+                                <p>Displaying the highest level of Integrity in the way we conduct our business</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 shadow p-3 mb-5 bg-body rounded">
+                                <img src="images/icon/Object Ungroup.png" alt="">
+                                <h5>Diversity</h5>
+                                <p>Displaying the highest level of Integrity in the way we conduct our business</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 shadow p-3 mb-5 bg-body rounded">
+                                <img src="images/icon/User Arrows.png" alt="">
+                                <h5>Teamwork</h5>
+                                <p>Displaying the highest level of Integrity in the way we conduct our business</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 shadow p-3 mb-5 bg-body rounded">
+                                <img src="images/icon/Circle Layer.png" alt="">
+                                <h5>Collaboration</h5>
+                                <p>Displaying the highest level of Integrity in the way we conduct our business</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 shadow p-3 mb-5 bg-body rounded">
+                                <img src="images/icon/Rocket.png" alt="">
+                                <h5>Technology</h5>
+                                <p>Displaying the highest level of Integrity in the way we conduct our business</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 shadow p-3 mb-5 bg-body rounded">
+                                <img src="images/icon/Bag.png" alt="">
+                                <h5>Corporate</h5>
+                                <p>Displaying the highest level of Integrity in the way we conduct our business</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 shadow p-3 mb-5 bg-body rounded">
+                                <img src="images/icon/Cube.png" alt="">
+                                <h5>Digital</h5>
+                                <p>Displaying the highest level of Integrity in the way we conduct our business</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- =========== Business partner area ============ -->
+
+        <section class="partner-area">
+            <div class="container">
+                <h4 class="py-5">BUSINESS PARTNERS</h4>
+
+                <div class="container">
+                    <div class="row row-cols-2 row-cols-lg-4 g-2 g-lg-3 py-5">
+                        <div class="col">
+                            <div class="p-3">
+                                <img src="images/partner1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3">
+                                <img src="images/partner2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3">
+                                <img src="images/partner3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3">
+                                <img src="images/partner4.png" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ---------------------------- article area ----------------------------- -->
+
+        <article>
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-5 wow slideInLeft" data-wow-duration="1.5s">
+                        <img src="images/Image.png" alt="">
+                    </div>
+                    <div class="col-md-7 wow slideInRight" data-wow-duration="1.5s">
+                        <h4>IPDC AT A GLANCE</h4>
+                        <p class="text-muted">IPDC Finance Limited (previously known as "Industrial Promotion and
+                            Development Company of
+                            Bangladesh Limited") is the first private sector financial institution of the country
+                            established in 1981 by a distinguished group of shareholders namely International Finance
+                            Corporation (IFC), USA, German Investment and Development Company (DEG), Germany, The Aga
+                            Khan
+                            Fund for Economic Development (AKFED), Switzerland, Commonwealth Development Corporation
+                            (CDC),
+                            UK and the Government of Bangladesh</p>
+                        <a href="#">Read More </a><i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+        <!-- ---------------------------- service area ----------------------------- -->
+
+        <section class="service-area">
+            <div class="container">
+                <h4>Our Services</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, dapibus mattis vel
+                    feugiat erat tortor
+                    eleifend.</p>
+
+
+
+
+
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 my-5">
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <img src="images/Image (1).png" class="card-img-top" alt="...">
+                            <div class="card-body d-flex align-items-center justify-content-between">
+                                <p class="card-text fw-bold">IPDC SAVING<br>SCHEMES</p>
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <img src="images/Image (2).png" class="card-img-top" alt="...">
+                            <div class="card-body d-flex align-items-center justify-content-between">
+                                <p class="card-text fw-bold">IPDC Personal <br> loan</p>
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <img src="images/Image (3).png" class="card-img-top" alt="...">
+                            <div class="card-body d-flex align-items-center justify-content-between">
+                                <p class="card-text fw-bold">IPDC Deposit <br> schemes</p>
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0">
+                            <img src="images/Image (4).png" class="card-img-top" alt="...">
+                            <div class="card-body d-flex align-items-center justify-content-between">
+                                <p class="card-text fw-bold">IPDC auto <br> loan</p>
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------------------------- our result area --------------------------- -->
+
+        <section class="result-area">
+            <div class="container">
+                <h2 class="fw-bold mb-3 text-center">Our best results for the year</h2>
+                <p class="text-muted text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam, dapibus
+                    <br> mattis
+                    vel feugiat erat
+                    tortor eleifend.
+                </p>
+
+
+                <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 g-4 my-5">
+                    <div class="col">
+                        <div class="p-3 ">
+                            <h3 class="active-result">57.6 bn</h3>
+                            <p>LOAN PORTFOLIO</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 ">
+                            <h3>0.95%</h3>
+                            <p>CLASSIFIED LOAN <br> PORTFOLIO</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 ">
+                            <h3>388.5%</h3>
+                            <p>CLASSIFIED LOAN <br> Coverage</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 ">
+                            <h3>50.4 bn</h3>
+                            <p>Deposit</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 ">
+                            <h3>6.1 bn</h3>
+                            <p>Shareholders <br> equity</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 ">
+                            <h3>18.51%</h3>
+                            <p>Capital Adequacy <br> Ratio</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 ">
+                            <h3>8.5 bn</h3>
+                            <p>Market <br> Capitalization</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 ">
+                            <h3>AAA</h3>
+                            <p>Credit Rating</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- -------------------------- News latter area --------------------------- -->
+
+        <section class="newslater">
+            <div class="container">
+                <h2 class="fw-bold">Newsletter</h2>
+                <p class="text-muted my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Eget ac quis
+                    aliquam arcu lacus.</p>
+
+                <div class="subscribe d-flex align-items-center justify-content-center">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Enter Your Email">
+                    <button class="btn all-btn" type="submit">iSERVICE</button>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ------------------------- main section ends -------------------------- -->
+
+
+    <footer>
+
+        <div class="container">
+            <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4">
+                <div class="col">
+                    <h5>About the company</h5>
+                    <p>Learn To Love Growth And <br> Change And You Will Be A <br> Success. Microsoft Patch </p>
+                    <div class="social">
+                        <img src="images/social/Vector.png" alt="">
+                        <img src="images/social/Vector (1).png" alt="">
+                        <img src="images/social/linkedin.png" alt="">
+                        <img src="images/social/instagram.png" alt="">
+                    </div>
+
+                </div>
+                <div class="col">
+                    <h5>Products</h5>
+                    <p>CSR Activities</p>
+                    <p>Green Banking</p>
+                    <p>News</p>
+                    <p>Ongoing Campgain</p>
+                    <p>Updates</p>
+                </div>
+                <div class="col">
+                    <h5>Get Started</h5>
+                    <p>Career</p>
+                    <p></p>
+                    <p>Contact Us</p>
+                    <p>Government Securities</p>
+                    <p>Examples</p>
+                    <p>NIS</p>
+                </div>
+                <div class="col">
+                    <h5>About</h5>
+                    <p>IPDC at a Glance</p>
+                    <p></p>
+                    <p>Mission, VIsion & Values</p>
+                    <p>Corporate Governanace</p>
+                    <p>Shareholders</p>
+                    <p>Investor Relations</p>
+                </div>
+            </div>
+            <span>&copy; Copyright 2021 || All right reserved Bablu Mia</span>
+        </div>
+
+        
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+
+    <!-- ====== Boostarp Js link ========== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,516 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+/* ======= Common css ======== */
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+.all-btn{
+    padding: 8px 20px;
+    background-color: #ED017F;
+    width: 160px;
+    border-radius: 5px;
+   color: #FFEAF5;
+   margin-left: 40px;
+   transition: .5s;
+   font-size: 12px;
+   font-weight: 500;
+   letter-spacing: 2px;
+}
+.all-btn:hover{
+    color: #ED017F;
+    background-color: #FFEAF5;
+    border: 1px solid #ED017F;
+    transition: .5s;
+
+}
+.active-btn{
+    color: #ED017F;
+    background-color: #FFEAF5;
+    border: 1px solid #ED017F;
+}
+.active-btn:hover{
+    background-color: #ED017F;
+    color: #FFEAF5;
+}
+.fa-search{
+    font-size: 24px;color: #ED017F;
+}
+
+
+
+
+
+
+
+
+/* ================ HEader area ============ */
+
+header{
+    background: linear-gradient(to right , #ffff 50%, #FFEAF5 50%);
+    height: 100vh;
+    width: 100%;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-item{
+    margin-right: 40px;
+}
+.nav-link{
+    font-size: 13px;
+    font-weight: 600;
+    color: black !important;
+    letter-spacing: 2px;
+    transition: .5s;
+}
+.nav-item:hover .nav-link{
+    color: #ED017F !important;
+}
+
+/* .carousel-inner{
+    height: 654px;
+} */
+.banner-area h1{
+    font-size: 63px;
+    font-weight: 900;
+}
+.banner-area p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #676767;
+    margin: 30px 0;
+}
+.banner-area .all-btn{
+    margin-left: 0;
+    margin-right: 20px;
+}
+.banner-left{
+    position: relative;
+}
+.banner-left .social-section{
+    position: absolute;
+    top: 120%;
+    left: 0;
+}
+.banner-left .social-section .call::after{
+    content: "";
+    height: 2px;
+    width: 25px;
+    background-color: gray;
+    transform: rotate(270deg);
+}
+.banner-left .social-section .social img{
+    margin-left: 20px;
+}
+.carousel-indicators{
+position:  absolute;
+left: 95%;
+top: 0%;
+display: flex;
+flex-direction: column;
+
+}
+.carousel-indicators .slide-btn{
+    height: 15px;
+    width: 15px;
+    background-color: #ED017F;
+    border-radius: 50%;
+    
+}
+
+/* off canvs */
+.fa-bars{
+    color: #ED017F;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.offcanvas-body ul li{
+    list-style: none;
+    background-color: #ED017F;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+}
+.offcanvas-body ul li a{
+    color: white;
+    padding: 10px;
+}
+
+/* ===== Modal ======= */
+.modal-header{
+    background-color: #ED017F;
+    color: white;
+}
+
+/* ==================== Experieence area start ================ */
+
+.experience-area{
+    margin: 150px 0 80px;
+}
+
+.expi-body h5{
+    font-style: 22px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+.expi-body p{
+    font-style: 14px;
+    color: #999999;
+    font-weight: 500;
+}
+
+/* ==================== Experieence area Ends================ */
+
+/* ===================== Partner area ============= */
+.partner-area{
+    background-color: #fce0ef36;
+    
+}
+.partner-area h4{
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+}
+/* ------------------------------ Article area ------------------------------ */
+article{
+    margin: 150px 0 80px;
+}
+article h4{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 38px;
+}
+article p{
+    font-size: 16px;
+    color: #676767;
+    font-weight: 500;
+    line-height: 29px;
+}
+article a{
+    color: #ED017F;
+    font-weight: bold;
+    text-align: justify;
+    
+}
+article i{
+    color: #ED017F;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+/* ------------------------------ services area ----------------------------- */
+.service-area{
+    margin: 150px 0 80px;
+    text-align: center;
+    background-color: #FEF9FC;
+    padding: 50px;
+}
+.service-area h4{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43px;
+    margin-bottom: 10px;
+}
+.service-area .card-body {
+    text-align: left;
+    padding: 20px 0;
+    
+}
+.service-area .card-body i{
+    height: 30px;
+    width: 30px;
+    background-color: #FCE0EF;
+    color: #ED017F;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* ------------------------------- result-area ------------------------------ */
+
+.result-area{
+    margin: 150px 0 80px;
+    text-align: center;
+    
+}
+.result-area h3{
+    font-size: 40px;
+    font-weight: 700;
+    /* text-align: left; */
+    transition: .5s;
+    cursor: pointer;
+}
+.result-area p{
+    font-size: 16px;
+    color: #676767;
+    font-weight: 500;
+    /* text-align: left; */
+    letter-spacing: 1px;
+    margin: 8px 0;
+}
+.result-area .active-result{
+    color: #ED017F;
+}
+
+.result-area h3:hover{
+    color: #ED017F;
+}
+
+/* ---------------------------- News latter area ---------------------------- */
+.newslater{
+    margin: 150px 0 80px;
+    text-align: center;
+    background-color: #FEF9FC;
+    padding: 100px 50px;
+}
+.subscribe{
+    width: 50%;
+    margin: auto;
+}
+
+
+/* --------------------------------- Footer --------------------------------- */
+
+footer{
+    padding: 50px;
+    
+}
+footer h5{
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+footer p{
+    font-size: 14px;
+    color: #676767;
+    font-weight: 500;
+    line-height: 22px;
+}
+footer .social img{
+    margin-right: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+footer span{
+    text-align: center;
+    display: block;
+    margin: 30px 0 0px;
+}
+
+
+
+
+/*---------------------------------------------------------------------------
+
+================Responsive css===========================
+
+--------------------------------------------------------------------------------*/
+ @media screen and (max-width:668px) {
+    header{
+        background: linear-gradient(to bottom , #ffff 50%, #FFEAF5 50%);
+        
+    }
+    .banner-area{
+        position: relative;
+        top: 100px;
+    }
+    .banner-area h1{
+        font-size: 30px;
+        margin-top: 0;
+        
+    }
+    .banner-area p {
+       
+        margin: 10px 0;
+    }
+   
+    .banner-left .social-section{
+        position: absolute;
+        top: 110%;
+        left: 10%;
+    }
+    .all-btn{
+        padding: 8px 10px;
+       font-size: 10px;
+       
+    }
+
+    .carousel-inner .carousel-item{
+        margin-top: 150px;
+    }
+    .carousel-indicators{
+        position:  absolute;
+        left:0%;
+        top: 98%;
+        display: flex;
+        flex-direction: row;
+        
+        }
+        .service-area{
+            padding: 10px;
+        }
+        .result-area h3{
+            text-align: center;
+        }
+        .result-area p{
+            text-align: center;
+        }
+
+        .newslater{
+            margin: 100px 0 80px;
+            padding: 50px 30px;
+        }
+        .subscribe{
+            width: 100%;
+            margin: auto;
+        }
+        footer .social img{
+            margin-right: 0px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        footer h5{
+            margin-top: 25px;
+        }
+        /* navbar */
+        .navbar{
+            background-color: #ED017F;
+            position: fixed;
+            z-index: 5;
+            width: 100%;
+            top: 0;
+        }
+        .navbar-nav .nav-link{
+            color: white !important;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        .navbar-nav .nav-link:hover{
+            color: black !important;
+        }
+        .navbar .fa-search{
+            color: white !important;
+        }
+        .navbar .all-btn{
+            background-color: white;
+            color: #ED017F;
+            border: 1px solid #ED017F;
+        }
+        i.fas.fa-bars {
+            color: white;
+            position: absolute;
+            top: 26px;
+            right: 30%;
+            font-size: 30px;
+        }
+
+ }
+
+
+ /* ------------------------ Mediam-device responsive ------------------------ */
+ @media screen and (min-width:768px) and (max-width:1023px) {
+    header{
+        background: linear-gradient(to bottom , #ffff 50%, #FFEAF5 50%);
+        
+    }
+    
+    .banner-area h1{
+        font-size: 60px;
+        margin-top: 0;
+    }
+    .banner-area p {
+       
+        margin: 30px 0;
+    }
+
+    .banner-area{
+        position: relative;
+        top: 100px;
+    }   
+    
+
+   
+    .banner-left .social-section{
+        position: absolute;
+        top: 110%;
+        left: 10%;
+    }
+    .all-btn{
+        padding: 8px 20px;
+       font-size: 10px;
+       
+    }
+
+    .carousel-inner .carousel-item{
+        margin-top: 200px;
+    }
+    .carousel-indicators{
+        position:  absolute;
+        left:0%;
+        top: 98%;
+        display: flex;
+        flex-direction: row;
+        
+        }
+        .banner-left .social-section{
+            position: absolute;
+            top: 150%;
+            left: 0%;
+        }
+
+        /* navbar */
+        .navbar{
+            background-color: #ED017F;
+            position: fixed;
+            z-index: 5;
+            width: 100%;
+            top: 0;
+        }
+        .navbar-nav .nav-link{
+            color: white !important;
+            font-weight: bold;
+            font-size: 17px;
+        }
+        /* navbar */
+        .navbar-nav .nav-link:hover{
+            color: black !important;
+        }
+        .navbar .fa-search{
+            color: white !important;
+        }
+        .navbar .all-btn{
+            background-color: white;
+            color: #ED017F;
+            border: 1px solid #ED017F;
+        }
+        i.fas.fa-bars {
+            color: white;
+            position: absolute;
+            top: 26px;
+            right: 30%;
+            font-size: 30px;
+        }
+ }
