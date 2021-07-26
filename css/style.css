@@ -329,7 +329,7 @@ footer span{
 --------------------------------------------------------------------------------*/
  @media screen and (max-width:668px) {
     header{
-        background: linear-gradient(to bottom , #ffff 50%, #FFEAF5 50%);
+        background: linear-gradient(to bottom , #ffff 40%, #FFEAF5 60%);
         
     }
     .banner-area{
@@ -426,6 +426,8 @@ footer span{
             right: 30%;
             font-size: 30px;
         }
+
+        
 
  }
 
